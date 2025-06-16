@@ -1,83 +1,47 @@
-**PLP Bookstore MongoDB Assignment**
-- Overview
-This repository contains my submission for the MongoDB assignment as part of the PLP (Power Learn Project) curriculum. The assignment focuses on MongoDB fundamentals including CRUD operations, advanced queries, aggregation pipelines, and indexing.
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19650496&assignment_repo_type=AssignmentRepo)
+# MongoDB Fundamentals Assignment
 
-**Setup Instructions**
-- Prerequisites
-1. MongoDB installed locally OR a MongoDB Atlas account
+This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
 
-2. MongoDB Shell (mongosh) or MongoDB Compass
+## Assignment Overview
 
-3. Node.js (if using the provided scripts)
+You will:
+1. Set up a MongoDB database
+2. Perform basic CRUD operations
+3. Write advanced queries with filtering, projection, and sorting
+4. Create aggregation pipelines for data analysis
+5. Implement indexing for performance optimization
 
-**Installation Steps**
-1. **Set up MongoDB**
+## Getting Started
 
-For local installation: Download and install MongoDB Community Edition
+1. Accept the GitHub Classroom assignment invitation
+2. Clone your personal repository that was created by GitHub Classroom
+3. Install MongoDB locally or set up a MongoDB Atlas account
+4. Run the provided `insert_books.js` script to populate your database
+5. Complete the tasks in the assignment document
 
-For cloud setup: Create a free MongoDB Atlas cluster
+## Files Included
 
-2. **Create the database and collection**
+- `Week1-Assignment.md`: Detailed assignment instructions
+- `insert_books.js`: Script to populate your MongoDB database with sample book data
 
-- Connect to your MongoDB instance
+## Requirements
 
-- Run the following commands:
+- Node.js (v18 or higher)
+- MongoDB (local installation or Atlas account)
+- MongoDB Shell (mongosh) or MongoDB Compass
 
-**javascripTt**
-* use plp_bookstore
-* db.createCollection("books")
+## Submission
 
-3. **Populate the database**
+Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-Run the provided insert_books.js script to insert sample data:
+1. Complete all tasks in the assignment
+2. Add your `queries.js` file with all required MongoDB queries
+3. Include a screenshot of your MongoDB database
+4. Update the README.md with your specific setup instructions
 
-**bash**
-* mongosh insert_books.js
-or
+## Resources
 
-**bash**
-* node insert_books.js
-  
-**File Structure**
-- insert_books.js - Script to populate the books collection with sample data
-
-- queries.js - Contains all MongoDB queries for the assignment tasks
-
-- README.md - This documentation file
-
-- screenshot.png - Screenshot of the MongoDB collection in Compass/Atlas
-
-**Query Documentation**
-All required queries for the assignment tasks are contained in queries.js. The file includes:
-
-1. Basic CRUD operations
-
-2. Advanced queries with filtering and projection
-
-3. Aggregation pipelines for data analysis
-
-4. Index creation and performance testing
-
-**Running the Queries**
-- To execute the queries:
-
-1. Open MongoDB Shell or Compass
-
-2. Connect to your plp_bookstore database
-
-3. Copy and paste queries from queries.js or load the entire file:
-
-**bash**
-mongosh queries.js
-
-**Indexing Demonstration**
-- The queries.js file includes examples of:
-
-1. Creating single and compound indexes
-
-2. Using explain() to show query performance improvements
-
-3. Comparing query execution with and without indexes
-
-**Submission**
-This repository was submitted via GitHub Classroom as required by the assignment instructions.
+- [MongoDB Documentation](https://docs.mongodb.com/)
+- [MongoDB University](https://university.mongodb.com/)
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
